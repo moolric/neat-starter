@@ -12,13 +12,18 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Thing"
-    name: "thing"
-    folder: "src/thing"
+  - label: "ATC"
+    name: "atc"
+    folder: "src/atcs"
     create: true
+    editor:
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Medium", name: "medium", widget: "select", options: ["watercolour", "lino print", "gelli print", "mixed media", "drawing"] }
+      - { label: "Created", name: "date", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
