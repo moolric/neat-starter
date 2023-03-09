@@ -22,7 +22,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Medium", name: "medium", widget: "select", options: ["watercolour", "lino print", "gelli print", "mixed media", "drawing"] }
-      - { label: "Created", name: "date", widget: "string" }
+      - { label: "Published", name: "date", widget: "datetime" }
+      - { label: "Created", name: "created", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
   - label: "Blog"
     name: "blog"
