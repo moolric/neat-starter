@@ -3,9 +3,9 @@ layout: default
 ---
 
 <section class="mt-15">
-    {% set atclist = collections.atcs %}
-
-    {% for atc in atclist | reverse %}
+    {% set atcslist = collections.atc %}
+    
+    {% for atc in atcslist %}
         <article class="my-8">
             <h2 class="font-bold text-3xl text-gray-900 mb-2">
                 <a href="{{ atc.url | url }}">
