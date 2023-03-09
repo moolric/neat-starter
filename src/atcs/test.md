@@ -1,5 +1,7 @@
 ---
-title: This is my first atc
+title: Lost in the woods
+description: A﻿bstract
+medium: gelli print
 date: 2023-03-10
-medium: watercolour
+image: /static/img/img_2176.jpeg
 ---
