@@ -1,6 +1,6 @@
 ---
 items:
   - text: ATCs
-    url: "/atc"
+    url: "/atcs"
   - text: Blog
     url: "/blog"

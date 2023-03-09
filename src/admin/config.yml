@@ -13,7 +13,7 @@ local_backend: true
 # publish_mode: editorial_workflow
 collections:
   - label: "ATC"
-    name: "atc"
+    name: "atcs"
     folder: "src/atcs"
     create: true
     editor:

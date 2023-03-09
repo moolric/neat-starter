@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="mt-15">
-    {% set atcslist = collections.atc %}
+    {% set atcslist = collections.atcs %}
     
     {% for atc in atcslist %}
         <article class="my-8">
@@ -18,7 +18,7 @@ layout: default
             </h2>
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
-                    {{ post.created | readableDate }}
+                    {{ atc.data.date | readableDate }}
                     in
                     <a>{{ atc.data.medium }}</a>
 
