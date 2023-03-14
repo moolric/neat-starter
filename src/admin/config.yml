@@ -12,8 +12,8 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "ATC"
-    name: "atcs"
+  - label: "Cards"
+    name: "cards"
     folder: "src/atcs"
     create: true
     editor:
@@ -24,9 +24,9 @@ collections:
       - { label: "Medium", name: "medium", widget: "select", options: ["watercolour", "lino print", "gelli print", "mixed media", "drawing"] }
       - { label: "Created", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
+  - label: "weqwe"
+    name: "bcsdcsadflog"
+    folder: "src/posqweqwets"
     create: true
     editor:
       preview: false

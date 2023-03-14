@@ -4,3 +4,5 @@ items:
     url: "/atcs"
   - text: Blog
     url: "/blog"
+  - text: Things
+    url: "/things"
